@@ -19,25 +19,25 @@
 
 
 
-// function scroll(speed) {
-//     $('html, body').animate({ scrollTop: $(document).height() - $(window).height() }, speed, function(
-//     	) {
-//         $(this).animate({ scrollTop: 0 }, speed);
-//     });
-// }
-
-// speed = 12000;
-
-// scroll(speed)
-// setInterval(function(){scroll(speed)}, speed * 2);
-
-
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+function scroll(speed) {
+    $('html, body').animate({ scrollTop: $(document).height() - $(window).height() }, speed, function(
+    	) {
+        $(this).animate({ scrollTop: 0 }, speed);
+    });
 }
 
-topFunction()
+speed = 12000;
+
+scroll(speed)
+setInterval(function(){scroll(speed)}, speed * 2);
+
+
+// function topFunction() {
+//   document.body.scrollTop = 0; // For Safari
+//   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+// }
+
+// topFunction()
 
 
 
