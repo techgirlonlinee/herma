@@ -1,0 +1,112 @@
+@font-face{
+  font-family: Functionpro ebco;
+  src: url(font/functionpro-condextraboldobl.otf);
+}
+
+@font-face{
+  font-family: Functionpro mo;
+  src: url(font/functionpro-mediumoblique.otf);
+}
+
+
+body {
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 1.2;
+	
+	background-color: #000000;
+	color: #333333;
+}
+
+canvas{
+  vertical-align: bottom;
+}
+
+section{
+	position: absolute;
+/*   overflow: scroll; */
+}
+
+section img{
+  min-width: 3840px;
+  min-height: 2160px;
+/* 	overflow: scroll; */
+}
+
+div{
+  z-index: 1000;
+  position: absolute;
+  pointer-events: none;
+}
+
+div.text2{
+  top: 1003px;
+	left: 502px;
+  width: 773px;
+  transform: scale(1.3);
+}
+
+/*  huge paragraph z. bauman*/
+div.text3 {
+  left: calc(100vw + 250px);
+  top: 300px;
+  width: 660px;
+  height: 200px;
+  color: #0000FF;
+  font-size: 20px;
+  font-family: Functionpro ebco, helvetica;
+}
+
+div.text4{
+  top: 57px;
+	left:  2900px;
+  width: 800px;
+}
+
+div.text5{
+  top: 903px;
+	left: 3049px;
+  width: 388px;
+  transform: scale(2);
+}
+
+/* bottom left z. sth big paragraph */
+div.text6{
+  top: 1742px;
+/*   padding-left: 150px; */
+/* 	left: 1504px; */
+  left: 1334px;
+  width: 260px;
+  height: 200px;
+  color: #0000FF;
+  font-size: 20px;
+  font-family: Functionpro mo, helvetica;
+} 
+
+div.text7{
+  top: 1516px;
+	left: 2400px;
+  width: 900px;
+}
+
+/* pluralise refine text on left bottom */
+div.text8{
+  top: 1400px;
+	left: -100px;
+}
+
+/* HERMA */
+div.text9{
+  top: 250px;
+	left: 250px;
+}
+
+div.text10{
+  top: 1250px;
+	left: 1650px;
+  width: 540px;
+  height: 200px;
+  color: #0000FF;
+  font-size: 20px;
+  font-family: Functionpro mo, helvetica;
+}
