@@ -16,7 +16,13 @@ body {
 	
 	background-color: #000000;
 	color: #333333;
+
 }
+
+::-webkit-scrollbar {
+display: none;
+width: 0px; 
+background: transparent; }
 
 canvas{
   vertical-align: bottom;
