@@ -49,7 +49,7 @@ const draw = function () {
   if (currentX) {
       if (images[i].complete) {
 
-      context.drawImage(images[i], currentX - 50, currentY -75, 100, 150)
+      context.drawImage(images[i], currentX - 10, currentY -150, 200, 300)
       }
    currentX = currentX + (aimX - currentX) * 0.4
    currentY = currentY + (aimY - currentY) * 0.4
