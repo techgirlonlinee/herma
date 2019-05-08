@@ -1,16 +1,16 @@
 @font-face{
   font-family: Functionpro ebco;
-  src: url(font/functionpro-condextraboldobl.otf);
+  src: url(font/FunctionPro-CondensedBoldObl.otf);
 }
 
 @font-face{
   font-family: Functionpro mo;
-  src: url(font/functionpro-mediumoblique.otf);
+  src: url(font/FunctionPro-MediumOblique.otf);
 }
 
 
 body {
-	font-family: Arial;
+	font-family: Functionpro mo;
 	font-size: 16px;
 	line-height: 1.2;
 	
@@ -108,5 +108,5 @@ div.text10{
   height: 200px;
   color: #0000FF;
   font-size: 20px;
-  font-family: Functionpro mo, helvetica;
+  font-family: Functionpro ebco, helvetica;
 }
