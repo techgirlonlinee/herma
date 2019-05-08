@@ -47,13 +47,11 @@ document.addEventListener("touch", function (event){
   }
 })
 
-canvasTag.addEventListener("click", function(){
-  i = i + 1
-  if (i >= images.length) {
-    i = 0
-  }
-})
 
+// document.addEventListener("scroll", function (event){
+  
+//  draw()
+// })
 
 const draw = function () {
   if (currentX) {

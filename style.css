@@ -124,7 +124,6 @@ a span:hover {
 }
 
 section.intro {
-/*   z-index: 1; */
   position: absolute;
   top: 0;
   left: 0;
@@ -132,9 +131,6 @@ section.intro {
   height: 100vh;
   color: #0000ff;
   background-color: #000000;
-/*  background-color: #0000ff;
-  color: #000000;*/
-/*   display: none; */
 }
 
 section h2{
