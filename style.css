@@ -1,0 +1,110 @@
+@font-face{
+  font-family: Functionpro Boldoblique;
+  src: url(font/FunctionPro-BoldOblique.otf);
+}
+
+body {
+	font-size: 18px;
+	line-height: 1.5;
+	
+	background-color: #000000;
+	color: #0000ff;
+  font-family: Functionpro Boldoblique, helvetica;
+	margin: 20px auto;
+	width: 800px;
+}
+
+h1 {
+  padding-top: 46px;
+  display: flex;
+  justify-content: center;
+  margin: -50px 0;
+}
+
+/*h1 img {
+  width: 526px;
+  height: 312px;
+}*/
+
+section.main a {
+  margin-left: 5px;
+  text-decoration: none;
+  position: absolute;
+/*  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);*/
+  color: #0000ff;
+}
+
+.learn {
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+section.main {
+/*   display: none; */
+  opacity: 0;
+  z-index: 1;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #000;
+  transition: opacity 5s ease;
+}
+
+div.all-squares {
+  width: 730px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div.all-squares div{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: 0 20px;
+}
+
+div.all-squares a{
+  display: inline-block;
+  bottom: 0;
+  margin-left: 0;
+}
+
+span.square {
+  width: 200px;
+  height: 200px;
+  background-color: #0000ff;
+  display: inline-block;
+/*  margin: 0 20px;*/
+}
+
+
+section.intro {
+/*   z-index: 1; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  color: #0000ff;
+  background-color: #000000;
+/*   display: none; */
+}
+
+section h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 540px;
+  height: 100%;
+  margin: 0 auto;
+}

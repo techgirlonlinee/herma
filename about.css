@@ -1,0 +1,43 @@
+@font-face {
+  font-family:  Functionpro Condensedbold;
+  src:  url(functionpro-condensedbold.otf);
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+  font-family: Futura Light Italic;
+  color: #fff;
+	cursor: none;
+}
+
+section p {
+  font-family: Functionpro Condensedbold;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  width: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.radial-gradient {
+  position:fixed;
+  top:0px;
+  left:0px;
+  height:100%;
+  width:100%;
+  
+  /*Fallback if gradeints don't work */
+  background: #0000ff;
+  /*Linear gradient... */
+  background: 
+    radial-gradient(
+     at center, #0000ff, #000000, #ffffff; 
+    );
+}
+
+
+
+
