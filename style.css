@@ -16,15 +16,17 @@ body {
 
 h1 {
   padding-top: 46px;
-  display: flex;
-  justify-content: center;
   margin: -50px 0;
+  height: 95px;
+  position: absolute;
+  top: 4%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-/*h1 img {
-  width: 526px;
-  height: 312px;
-}*/
+h1 img {
+  width: 94px;
+}
 
 section.main a {
   margin-left: 5px;
@@ -37,9 +39,10 @@ section.main a {
 }
 
 .learn {
-  bottom: 20%;
+  bottom: 8%;
   left: 50%;
   transform: translateX(-50%);
+  font-size: 13px;
 }
 
 section.main {
@@ -58,19 +61,25 @@ section.main {
 }
 
 div.all-squares {
-  width: 730px;
+  /*width: 730px;*/
   height: 200px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  width: 1000px;
 }
 
 div.all-squares div{
   display: inline-block;
-  width: 200px;
+  /*width: 200px;
   height: 200px;
   margin: 0 20px;
+*/
+  width: 100px;
+  height: 100px;
+  margin: 0 100px;
 }
 
 div.all-squares a{
@@ -85,8 +94,34 @@ span.square {
   background-color: #0000ff;
   display: inline-block;
 /*  margin: 0 20px;*/
+
+   transition-property: transform;
+   transition-duration: 0.5s;
 }
 
+a span:hover {
+    animation-name: rotate; 
+    animation-duration: 5s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+.interactive2 span:hover {
+    animation-name: rotate2; 
+    animation-duration: 5s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate2 {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(-360deg);}
+}
 
 section.intro {
 /*   z-index: 1; */

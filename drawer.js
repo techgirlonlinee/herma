@@ -36,6 +36,16 @@ document.addEventListener("mousemove", function (event){
   }
 })
 
+document.addEventListener("touch", function (event){
+  
+  
+  aimX = event.pageX
+  aimY = event.pageY
+  if (currentX === null) {
+    currentX = event.pageX
+    currentY = event.pageY
+  }
+})
 
 canvasTag.addEventListener("click", function(){
   i = i + 1
@@ -64,3 +74,9 @@ draw()
 //   document.style.backgroundPositionX = -event.offsetX + "px";
 //   document.style.backgroundPositionY = -event.offsetY + "px";
 // });
+
+// document.addEventListener("mousemove", (event) => {
+//   document.body.clientWidth = -event.pageX + "px";
+//   document.body.clientHeight = -event.pageY + "px";
+// });
+
