@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 //     main.style.display = "block"
     main.style.opacity = 1
     main.style.zIndex = 1
-  }, 300)
+  }, 6000)
 
 })
 
