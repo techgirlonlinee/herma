@@ -1,12 +1,12 @@
 @font-face {
   font-family:  Functionpro Condensedbold;
-  src:  url(font/functionpro-condensedbold.otf);
+  src:  url(font/FunctionPro-CondensedBold.otf);
 }
 
 body {
 	width: 100vw;
 	height: 100vh;
-  font-family: Futura Light Italic;
+  font-family: Functionpro Condensedbold;
   color: #fff;
 	cursor: none;
 }
