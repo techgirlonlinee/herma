@@ -19,10 +19,10 @@ body {
 
 }
 
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
 display: none;
 width: 0px; 
-background: transparent; }
+background: transparent; }*/
 
 canvas{
   vertical-align: bottom;

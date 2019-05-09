@@ -8,8 +8,36 @@ body {
 	height: 100vh;
   font-family: Functionpro Condensedbold;
   color: #fff;
-	cursor: none;
+/*	cursor: none;*/
+
+
+
+/*background: linear-gradient(219deg, #ffffff, #0000ff, #30099a);
+background-size: 600% 600%;
+
+-webkit-animation: AnimationName 44s ease infinite;
+-moz-animation: AnimationName 44s ease infinite;
+animation: AnimationName 44s ease infinite;*/
+
+/*background: linear-gradient(191deg, #ffffff, #0000ff, #0b0b48);
+background-size: 600% 600%;
+
+-webkit-animation: AnimationName 16s ease infinite;
+-moz-animation: AnimationName 16s ease infinite;
+animation: AnimationName 16s ease infinite;*/
+
+/*ackground: linear-gradient(70deg, #0000ff, #d6d7ff, #0000ff);
+background-size: 600% 600%;
+
+-webkit-animation: AnimationName 19s ease infinite;
+-moz-animation: AnimationName 19s ease infinite;
+animation: AnimationName 19s ease infinite;*/
+
+  background: radial-gradient(circle at top, #0000ff, #1b1bff, #0000ff);
+  background-size: 200% 200%;
+  animation: radial-gradient 15s ease infinite;
 }
+
 
 section p {
   font-family: Functionpro Condensedbold;
@@ -22,22 +50,64 @@ section p {
   transform: translate(-50%, -50%);
 }
 
-.radial-gradient {
+/*@-webkit-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}*/
+
+@keyframes radial-gradient {
+  0% {
+    background-position: 10% 50%;
+  }
+  50% {
+    background-position: 80% 60%;
+  }
+  100% {
+    background-position: 10% 50%;
+  }
+}
+
+
+/*.radial-gradient {
   position:fixed;
   top:0px;
   left:0px;
   height:100%;
   width:100%;
   
-  /*Fallback if gradeints don't work */
+  
   background: #0000ff;
-  /*Linear gradient... */
+ 
   background: 
     radial-gradient(
      at center, #0000ff, #000000, #ffffff; 
     );
+}*/
+
+
+/*@-webkit-keyframes AnimationName {
+    0%{background-position:0% 18%}
+    50%{background-position:100% 83%}
+    100%{background-position:0% 18%}
 }
-
-
-
-
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 18%}
+    50%{background-position:100% 83%}
+    100%{background-position:0% 18%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 18%}
+    50%{background-position:100% 83%}
+    100%{background-position:0% 18%}
+}*/
