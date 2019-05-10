@@ -5,7 +5,7 @@
 // function scrollDown() { 
 //    scroll = setInterval(function(){ 
 //    	window.scrollBy(50, 1000); 
-//    	console.log('start');
+//    	// console.log('start');
 //    }, 1500);
 // }
 
@@ -19,7 +19,7 @@
 
 
 
-function scroll(speed) {
+function scrollY(speed) {
     $('html, body').animate({ scrollTop: $(document).height() - $(window).height() }, speed, function(
     	) {
         $(this).animate({ scrollTop: 0 }, speed);
@@ -28,8 +28,55 @@ function scroll(speed) {
 
 speed = 12000;
 
-scroll(speed)
-setInterval(function(){scroll(speed)}, speed * 2);
+scrollY(speed)
+setInterval(function(){scrollY(speed)}, speed * 2);
+
+
+
+// function scrollX(speed) {
+//     $('html, body').animate({ scrollLeft: $(document).width() - $(window).width() }, speed, function(
+//     	) {
+//         $(this).animate({ scrollLeft: 0 }, speed);
+//     });
+// }
+
+// speed = 11500;
+// scrollX(speed)
+// setInterval(function(){scrollX(speed)}, speed * 2);
+
+
+
+function scrollX(speed) {
+    $('html, body').animate({ scrollLeft: $(document).width() - $(window).width() }, speed, function(
+    	) {
+        $(this).animate({ scrollLeft: 0 }, speed);
+    });
+}
+
+speed = 1500;
+scrollX(speed)
+// setInterval(function(){scrollX(speed)}, speed * 2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function scroll(speed) {
+// 	const body = document.querySelector("body")
+// 	body.
+
 
 
 // function topFunction() {

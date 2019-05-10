@@ -20,13 +20,13 @@ body {
 ::-webkit-scrollbar { width: 0 !important };
 
 h1 {
-  position: fixed;
+  position: absolute;
   top: 14px;
   left: 34px;
   z-index: 1;
 	font-size: 60px;
 	font-weight: 700;
-  height: 100px;
+  /*height: 100px;*/
   
   mix-blend-mode: difference;
 }

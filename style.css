@@ -55,9 +55,15 @@ section.main {
   top: 0;
   width: 100vw;
   height: 100vh;
+  transition: opacity 3.8s ease;
+}
 
+
+section.back-drop {
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
   background-color: #000;
-  transition: opacity 5s ease;
 }
 
 div.all-squares {
@@ -131,6 +137,7 @@ section.intro {
   height: 100vh;
   color: #0000ff;
   background-color: #000000;
+  transition: opacity 3s ease-out;
 }
 
 section h2{
