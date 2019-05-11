@@ -157,3 +157,32 @@ section h2{
   height: 100%;
   margin: 0 auto;
 }
+
+.mobile {
+  opacity: 0;
+}
+
+@media (max-width: 440px) {
+
+  section.intro {
+    display: none;
+  }
+
+  section.main {
+    display: none;
+  }
+
+  body {
+    background-color: #0000ff
+  }
+
+div.mobile {
+    opacity: 1;
+    color: #000;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 45%;
+}
+
+  }
