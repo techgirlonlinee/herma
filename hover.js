@@ -1,8 +1,8 @@
-const circleA = document.querySelector("section.a")
-const circleB = document.querySelector("section.b")
-const circleC = document.querySelector("section.c")
-const circleD = document.querySelector("section.d")
-const circleE = document.querySelector("section.e")
+const circleA = document.querySelector(".a")
+const circleB = document.querySelector(".b")
+const circleC = document.querySelector(".c")
+const circleD = document.querySelector(".d")
+const circleE = document.querySelector(".e")
 
 
 circleA.addEventListener("mouseenter", function(){

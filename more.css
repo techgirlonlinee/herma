@@ -10,6 +10,8 @@ body {
 
 .fullscreen-bg {
   	position: fixed;
+    background-size: contain;
+    background-position: center;
   	right: 0;
   	bottom: 0;
   	min-width: 100%; 
