@@ -38,12 +38,12 @@ section.main a {
   color: #0000ff;
 }
 
-.learn {
+/*.learn {
   bottom: 8%;
   left: 50%;
   transform: translateX(-50%);
   font-size: 13px;
-}
+}*/
 
 section.main {
   /*display: none; */
