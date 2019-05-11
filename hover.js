@@ -7,30 +7,30 @@ const circleE = document.querySelector(".e")
 
 circleA.addEventListener("mouseenter", function(){
 	const audio = document.createElement("audio")
-	audio.setAttribute("src", "sound/sample1.mp3")
+	audio.setAttribute("src", "sound/bell.mp3")
 	audio.play()
 })
 
 circleB.addEventListener("mouseover", function(){
 	const audio = document.createElement("audio")
-	audio.setAttribute("src", "sound/sample2.mp3")
+	audio.setAttribute("src", "sound/office.mp3")
 	audio.play()
 })
 
 circleC.addEventListener("mouseover", function(){
 	const audio = document.createElement("audio")
-	audio.setAttribute("src", "sound/sample3.mp3")
+	audio.setAttribute("src", "sound/plane.mp3")
 	audio.play()	
 })
 
 circleD.addEventListener("mouseover", function(){
 	const audio = document.createElement("audio")
-	audio.setAttribute("src", "sound/sample4.mp3")
+	audio.setAttribute("src", "sound/thunder.mp3")
 	audio.play()	
 })
 
 circleE.addEventListener("mouseover", function(){
 	const audio = document.createElement("audio")
-	audio.setAttribute("src", "sound/sample5.mp3")
+	audio.setAttribute("src", "sound/waves.mp3")
 	audio.play()	
 })
