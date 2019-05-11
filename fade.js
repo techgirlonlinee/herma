@@ -7,6 +7,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // main.style.opacity = 1
     // main.style.zIndex = 1
+    
+		// const audio = document.createElement("audio")
+		// audio.setAttribute("src", "sound/plop.mp3")
+		// audio.play()
 
     intro.style.opacity = 0
   }, 3000)
@@ -16,9 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
    		main.style.opacity = 1
     	main.style.zIndex = 1
 
-		const audio = document.createElement("audio")
-		audio.setAttribute("src", "sound/plop.mp3")
-		audio.play()
+
 
 
 		// if (!soundHasPlayed){
