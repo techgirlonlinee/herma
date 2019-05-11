@@ -19,6 +19,7 @@ body {
 
 
 section .text {
+  z-index: 1;
   font-family: Functionpro Condensedbold;
   font-size: 20px;
   color: white;
