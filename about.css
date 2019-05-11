@@ -33,7 +33,7 @@ background-size: 600% 600%;
 -moz-animation: AnimationName 19s ease infinite;
 animation: AnimationName 19s ease infinite;*/
 
-  background: radial-gradient(circle at top, #0000ff, #1b1bff, #0000ff);
+  background: radial-gradient(circle at top, #000000, #1b1bff, #0000ff);
   background-size: 200% 200%;
   animation: radial-gradient 15s ease infinite;
 }
