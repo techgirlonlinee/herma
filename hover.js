@@ -9,42 +9,42 @@ const circleG = document.querySelector(".g")
 
 circleA.addEventListener("mouseenter", function(){
 	const audio = document.createElement("audio")
-	audio.setAttribute("src", "sound/sample1.mp3")
+	audio.setAttribute("src", "sound/Sound01.mp3")
 	audio.play()
 })
 
 circleB.addEventListener("mouseover", function(){
 	const audio = document.createElement("audio")
-	audio.setAttribute("src", "sound/sample2.mp3")
+	audio.setAttribute("src", "sound/Sound02.mp3")
 	audio.play()
 })
 
 circleC.addEventListener("mouseover", function(){
 	const audio = document.createElement("audio")
-	audio.setAttribute("src", "sound/sample3.mp3")
+	audio.setAttribute("src", "sound/Sound03.mp3")
 	audio.play()	
 })
 
 circleD.addEventListener("mouseover", function(){
 	const audio = document.createElement("audio")
-	audio.setAttribute("src", "sound/sample4.mp3")
+	audio.setAttribute("src", "sound/Sound04.mp3")
 	audio.play()	
 })
 
 circleE.addEventListener("mouseover", function(){
 	const audio = document.createElement("audio")
-	audio.setAttribute("src", "sound/sample5.mp3")
+	audio.setAttribute("src", "sound/Sound05.mp3")
 	audio.play()	
 })
 
 circleF.addEventListener("mouseover", function(){
 	const audio = document.createElement("audio")
-	audio.setAttribute("src", "sound/sample6.mp3")
+	audio.setAttribute("src", "sound/Sound06.mp3")
 	audio.play()	
 })
 
 circleG.addEventListener("mouseover", function(){
 	const audio = document.createElement("audio")
-	audio.setAttribute("src", "sound/sample7.mp3")
+	audio.setAttribute("src", "sound/Sound07.mp3")
 	audio.play()	
 })
