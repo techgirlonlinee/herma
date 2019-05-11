@@ -25,12 +25,12 @@ circleC.addEventListener("mouseover", function(){
 
 circleD.addEventListener("mouseover", function(){
 	const audio = document.createElement("audio")
-	audio.setAttribute("src", "sample4.mp3")
+	audio.setAttribute("src", "sound/sample4.mp3")
 	audio.play()	
 })
 
 circleE.addEventListener("mouseover", function(){
 	const audio = document.createElement("audio")
-	audio.setAttribute("src", "sample5.mp3")
+	audio.setAttribute("src", "sound/sample5.mp3")
 	audio.play()	
 })
