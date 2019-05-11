@@ -7,3 +7,44 @@
 	/*opacity: 0.7;*/
 }
 
+section.some-sounds{
+	z-index:1;
+	width: 100vw;
+	height: 100vh;
+}
+
+div.circle {
+	width: 100px;
+	height: 100px;
+	background-color: #0000ff;
+}
+
+div.a{
+	position: fixed;
+	top: 10%;
+	left: 5%;
+}
+
+div.b{
+	position: fixed;
+	bottom: 25%;
+	right: 20%;
+}
+
+div.c{
+	position: fixed;
+	top: 25%;
+	left:40%;
+}
+
+div.d{
+	position: fixed;
+	top: 5%;
+	right:5%;
+}
+
+div.e{
+	position: fixed;
+	bottom: 15%;
+	left:20%;
+}
