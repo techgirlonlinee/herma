@@ -3,6 +3,8 @@ const circleB = document.querySelector(".b")
 const circleC = document.querySelector(".c")
 const circleD = document.querySelector(".d")
 const circleE = document.querySelector(".e")
+const circleF = document.querySelector(".f")
+const circleG = document.querySelector(".g")
 
 
 circleA.addEventListener("mouseenter", function(){
@@ -32,5 +34,17 @@ circleD.addEventListener("mouseover", function(){
 circleE.addEventListener("mouseover", function(){
 	const audio = document.createElement("audio")
 	audio.setAttribute("src", "sound/sample5.mp3")
+	audio.play()	
+})
+
+circleF.addEventListener("mouseover", function(){
+	const audio = document.createElement("audio")
+	audio.setAttribute("src", "sound/sample6.mp3")
+	audio.play()	
+})
+
+circleG.addEventListener("mouseover", function(){
+	const audio = document.createElement("audio")
+	audio.setAttribute("src", "sound/sample7.mp3")
 	audio.play()	
 })

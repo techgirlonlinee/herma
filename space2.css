@@ -34,17 +34,34 @@ div.b{
 div.c{
 	position: fixed;
 	top: 25%;
-	left:40%;
+	left: 35%;
 }
 
 div.d{
 	position: fixed;
 	top: 5%;
-	right:5%;
+	right: 5%;
 }
 
 div.e{
 	position: fixed;
 	bottom: 15%;
-	left:20%;
+	left: 15%;
 }
+
+div.f{
+	position: fixed;
+	top: 15%;
+	left: 60%;
+}
+
+div.g{
+	position: fixed;
+	bottom: 5%;
+	left: 45%;
+}
+
+
+
+
+
