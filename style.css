@@ -66,6 +66,7 @@ section.main {
     min-height: 100%;
   /*opacity: 0.7;*/
     z-index: -1;
+    background-size: cover;
 }
 
 section.back-drop {
