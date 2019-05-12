@@ -27,3 +27,27 @@ document.addEventListener("DOMContentLoaded", function () {
 })
 
 
+
+
+const circle1 = document.querySelector(".interactive1")
+const circle2 = document.querySelector(".interactive2")
+const circle3 = document.querySelector(".interactive3")
+
+
+circle1.addEventListener("mouseover", function(){
+	const audio = document.createElement("audio")
+	audio.setAttribute("src", "sound/Square.mp3")
+	audio.play()
+})
+
+circle2.addEventListener("mouseover", function(){
+	const audio = document.createElement("audio")
+	audio.setAttribute("src", "sound/Square.mp3")
+	audio.play()
+})
+
+circle3.addEventListener("mouseover", function(){
+	const audio = document.createElement("audio")
+	audio.setAttribute("src", "sound/Square.mp3")
+	audio.play()	
+})

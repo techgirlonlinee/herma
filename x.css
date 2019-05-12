@@ -16,7 +16,16 @@ body {
 	
 	background-color: #000000;
 	color: #333333;
+}
 
+a.button {
+  position: fixed;
+  z-index: 5;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+  text-decoration: none;
+  color: #0000ff;
 }
 
 /*::-webkit-scrollbar {

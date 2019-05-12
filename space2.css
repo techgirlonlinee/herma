@@ -3,10 +3,22 @@
   src:  url(font/FunctionPro-CondExtraBoldObl.otf);
 }
 
-/*body {
-	width: 100vw;
-	height: 100vh;
-}*/
+@font-face{
+  font-family: Functionpro mo;
+  src: url(font/FunctionPro-MediumOblique.otf);
+}
+
+a.button {
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Functionpro mo;
+}
 
 h1 {
 	font-family: CondExtraBoldObl;
