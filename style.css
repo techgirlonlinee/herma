@@ -76,7 +76,7 @@ section.main {
     z-index: -1;
     /*background-size: cover;*/
     /*background-position: right center;*/
-    
+
   min-height: 100%;
   min-width: 1024px;
   
@@ -89,13 +89,6 @@ section.main {
   top: 0;
   left: 0;
 }
-
-/*section.back-drop {
-  z-index: -1;
-  width: 100vw;
-  height: 100vh;
-  background-color: #000;
-}*/
 
 div.all-squares {
   /*width: 730px;*/
