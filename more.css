@@ -28,6 +28,11 @@
   src: url(font/FunctionPro-MediumOblique.otf);
 }
 
+@font-face{
+  font-family: Functionpro Book;
+  src: url(font/FunctionPro-Book.otf);
+}
+
 
 a.button {
   position: fixed;
@@ -53,7 +58,7 @@ body {
   color: #000;
   background-color: #000000;
   line-height: 1.3;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 
 /*  background: radial-gradient(circle at top, #000000, #1b1bff, #0000ff);
   background-size: 100% 100%;
@@ -121,8 +126,10 @@ h1 img {
 
 section .text {
   z-index: 1;
-  font-family: Functionpro Demi;
-  font-size: 22px;
+/*  font-family: Functionpro Demi;*/
+  font-family:  Functionpro Book;
+  /*font-size: 22px;*/
+  font-size: 18px;
   color: #000;
 /*  position: absolute;*/
   width: 800px;
@@ -137,7 +144,7 @@ section .text {
 
 p.first {
   font-family: Functionpro LightOblique;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin-bottom: 50px;
   /*margin-top: 60px;*/
   /*margin-top: 20px;*/
@@ -156,13 +163,14 @@ p {
 }
 
 .hermatext{
-  font-family: Functionpro Demi;
-  font-size: 22px;
+  /*font-family: Functionpro Demi;*/
+  font-family:  Functionpro Book;
+  font-size: 18px;
   color: #000;
   width: 1000px;
   margin: 60px auto;
   margin-top: 120px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 
