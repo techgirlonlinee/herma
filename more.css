@@ -36,7 +36,7 @@ a.button {
   height: 35px;
   font-size: 20px;
   padding-left: 20px;
-  padding-top: -50px;
+  margin-top: -12px;
   text-decoration: none;
   color: #ffffff;
   opacity: 0.5;
@@ -92,11 +92,32 @@ body {
 }
 
 
-header{
+/*header{
   height: 156px;
   width: 268px;
   margin: 20px auto;
+}*/
+
+header{
+  height: 156px;
+  width: 94px;
+  margin: 20px auto;
 }
+
+h1 {
+  padding-top: 46px;
+  margin: -50px 0;
+  height: 95px;
+  position: absolute;
+  top: 4%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h1 img {
+  width: 94px;
+}
+
 
 section .text {
   z-index: 1;
@@ -118,7 +139,9 @@ p.first {
   font-family: Functionpro LightOblique;
   text-transform: uppercase;
   margin-bottom: 50px;
-  margin-top: 60px;
+  /*margin-top: 60px;*/
+  /*margin-top: 20px;*/
+  margin-top: -20px;
 }
 
 p {
