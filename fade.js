@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
    		main.style.opacity = 1
     	main.style.zIndex = 1
 
-    }, 5900)
+    }, 7900)
 
 
 
