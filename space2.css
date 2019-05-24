@@ -8,6 +8,10 @@
   src: url(font/FunctionPro-MediumOblique.otf);
 }
 
+body {
+	cursor: none;
+}
+
 a.button {
   position: fixed;
   z-index: 5;
@@ -105,5 +109,20 @@ div.g{
 
 
 
+
+div.ball {
+  background-color: #fff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  transform: translate(-50%, -50%);
+  
+  mix-blend-mode: difference;
+  z-index: 2;
+}
 
 
