@@ -12,6 +12,7 @@ body {
   font-family: Functionpro Boldoblique, helvetica;
 	margin: 20px auto;
 	width: 800px;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -169,7 +170,7 @@ section h2{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 540px;
+  width: 600px;
   height: 100%;
   margin: 0 auto;
 }

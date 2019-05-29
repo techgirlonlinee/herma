@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		// audio.play()
 
     intro.style.opacity = 0
-  }, 3000)
+  }, 5500)
 
 
 	setInterval(function (){
