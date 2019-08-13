@@ -188,7 +188,7 @@ section h2{
     background-image: url(images/Background-08-02.jpg);
   }
 
-div.mobile {
+.mobile {
     opacity: 1;
     color: #000;
     height: 100%;
