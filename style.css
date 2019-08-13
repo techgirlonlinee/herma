@@ -169,6 +169,10 @@ section h2{
   opacity: 0;
 }
 
+h6 {
+  color: #0000ff;
+}
+
 @media (max-width: 440px) {
 
   section.intro {
